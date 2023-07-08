@@ -1,0 +1,77 @@
+html {
+  font-size: 10px;
+  background: url(https://images.unsplash.com/photo-1543467573-fd63c26102c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1126&q=80) bottom center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+body,html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.header .title {
+  font-size: 5rem;
+  color: yellow;
+  font-family: 'Alfa Slab One', cursive;
+  letter-spacing: .5rem;
+  margin-bottom: 100px;
+}
+
+.header audio {
+  width: 300px;
+  height: 25px;
+}
+
+.keys {
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.key {
+  border: .4rem solid black;
+  border-radius: .5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  transition: all .07s ease;
+  width: 11rem;
+  height: 15rem;
+  line-height: 15rem;
+  text-align: center;
+  color: white;
+  background: rgba(0,0,0,0.4);
+  text-shadow: 0 0 .5rem black;
+  background-position: center;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: #ffc600;
+}
